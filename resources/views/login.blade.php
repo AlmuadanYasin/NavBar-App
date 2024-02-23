@@ -35,7 +35,7 @@
 
       .login-box {
         position: absolute;
-        margin: 21% 0% 0% 0%;
+        margin: 23% 0% 0% 0%;
         top: 50%;
         left: 50%;
         width: 400px;
@@ -191,43 +191,6 @@
 
     <!-- Example Code -->
     
-        
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="home">Navbar-App</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact">Contact</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Services
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="service1">Services 1</a></li>
-                <li><a class="dropdown-item" href="service2">Services 2</a></li>
-                <li><a class="dropdown-item" href="service3">Services 3</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about">About</a>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
-      </div>
-    </nav>
-
     <!-- LogIn Form -->
     <div class="login-box">
             <form>
@@ -240,7 +203,7 @@
                     <input type="password" name="" required="">
                     <label>Password</label>
                 </div><center>
-                <a href="{{ url('contact') }}">Log In<span></span></a></center>
+                <a href="{{ url('home') }}">Log In<span></span></a></center>
             </form>
     </div>
       

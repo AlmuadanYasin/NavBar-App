@@ -46,6 +46,30 @@
         margin: 5% 0% 0% 0%;
       }
 
+      .btn-lagout{
+        list-style-type: none;
+        margin: 3% 0% 0% 0%;
+      }
+
+      .btn-home{
+        background-color: transparent;
+        text-decoration: none;
+        padding: 8px 50px 8px 50px;
+        color: #04AA6D;
+        border: 2px solid #04AA6D;
+        border-radius: 25px;
+        margin: 3% 0% 0% 0%;
+      }
+
+      .btn-home:hover{
+        padding: 8px 50px 8px 50px;
+        background-color: #04AA6D;
+        color: #fff;
+        border: 2px solid #04AA6D;
+        border-radius: 25px;
+        margin: 3% 0% 0% 0%;
+      }
+
       .navbar-brand{
         font-weight: bold;
       }
@@ -139,9 +163,6 @@
             <li class="nav-item">
               <a class="nav-link" href="about">About</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="login">LogIn</a>
-            </li>
           </ul>
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -156,6 +177,11 @@
             <div class="ball"></div>
         </div>
         <h1>Welcome to Navbar-App Home</h1>
+        <ul class="btn-lagout">
+          <li>
+            <a class="btn-home" href="{{ url('landing') }}">Log Out</a>
+          </li>
+        </ul>
     </div>
       
     <!-- End Example Code -->

@@ -44,6 +44,11 @@
         text-align: center;
         margin: 3% 0% 0% 0%;
       }
+
+      .btn-lagout{
+        list-style-type: none;
+        margin: 3% 0% 0% 0%;
+      }
       
       .btn-home{
         background-color: transparent;
@@ -182,7 +187,12 @@
             <div></div>
         </div>
       <h1>Welcome to Navbar-App About</h1>
-            <a class="btn-home" href="{{ url('home') }}">Back to Home</a>
+      <ul class="btn-lagout">
+              <li>
+              <a class="btn-home" href="{{ url('home') }}">Back to Home</a>
+            <a class="btn-home" href="{{ url('landing') }}">Log Out</a>
+              </li>
+            </ul>
     </div>
       
     <!-- End Example Code -->
