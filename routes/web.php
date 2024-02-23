@@ -43,3 +43,13 @@ Route::name('services.')->group(function () {
        return view("service3");
     })->name('service3');
 });
+
+Route::name('dashboard.')->group(function () {
+    Route::get('/admin', function () {
+       return view("account");
+    })->name('admin');
+    Route::get('/user', function () {
+       return view("account");
+    })->name('user');
+});
+
